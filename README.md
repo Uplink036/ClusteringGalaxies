@@ -37,7 +37,11 @@ You also need the galaxy zoo dataset, which can be found [here](https://www.kagg
 
 ### Unzip image data
 ## Build 
+
+
 ## Run 
+Run the container by pressing ctrl-shift-p in vs code and hit the *dev container: reopen in container* to start it up. If it's your first time, it will take a while, but afterwards you have a controlled enviroment that will be the same for others. 
+
 Run your jupyter notebook by entering 
 ```bash
 
