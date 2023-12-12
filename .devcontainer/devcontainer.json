@@ -14,7 +14,18 @@
 	// "forwardPorts": [],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": "pip install -r requirements.txt"
+	"postCreateCommand": "pip install -r requirements.txt",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-toolsai.jupyter",
+				"GitHub.copilot",
+				"GitHub.copilot-labs",
+				"mechatroner.rainbow-csv",
+				"oderwat.indent-rainbow"
+			]
+		}
+	}
 
 	// Configure tool-specific properties.
 	// "customizations": {},
