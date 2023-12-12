@@ -31,9 +31,20 @@ in the terminal
 
 # How to build (devcontainer)
 ## Prerequistes
+You need a system capable of running dockers and devcontainers. This was done on a ubuntu machine, running the devcontainer exstension, but other ways work as well. 
+
+You also need the galaxy zoo dataset, which can be found [here](https://www.kaggle.com/competitions/galaxy-zoo-the-galaxy-challenge).
+
 ### Unzip image data
 ## Build 
 ## Run 
+Run your jupyter notebook by entering 
+```bash
+
+jupyter notebook 
+
+```
+in the terminal
 
 
 # License 
