@@ -50,5 +50,30 @@ jupyter notebook
 ```
 in the terminal
 
+## How to contribute 
+
+When working in notebooks you have to take extra care when merging. This, sadly, doesn't seem to work that well in pure github. Therefore, we will have to work with branches and [reviewNB](https://www.reviewnb.com/) to be able to cooperate on our changes and progress. 
+
+Some useful git commands are:
+
+```bash
+ 
+git branch                  // Lists all branches 
+git checkout BRANCH         // Changes the version to branch, 
+                            // From here you can work normally But the changes will only applied on that branch. 
+git checkout -b BRANCH_NAME // Creates and checkouts to
+                            // a branch with the following name.
+
+```
+
+So, when handling a feature or a task, make it *small task*. Say standardized_rotation_of_image. This makes it easier for both the purpose of the branch as well as for the reviwer to make sure everything is in order. 
+
+After you're done with the branch and are happy with the results, you go to github to create a pull request. You do this by going to your branch and pressing the create pull request button. 
+
+After you've created it, you can review your chagnes in [reviewNB](https://www.reviewnb.com/) and if you're happy, merge the branch in to main. 
+
+Proper etiquet when naming and pulling is apprecatied, but does take time and is fine to not spend too much time on. 
+
+
 
 # License 
