@@ -1,6 +1,6 @@
 # Remove image folders 
-test_folder*
-train_folder*
+images_test*
+images_training*
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
