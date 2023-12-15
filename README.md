@@ -59,10 +59,12 @@ Some useful git commands are:
 ```bash
  
 git branch                  // Lists all branches 
+git branch -d BRANCH        // Delete the branch              
 git checkout BRANCH         // Changes the version to branch, 
                             // From here you can work normally But the changes will only applied on that branch. 
 git checkout -b BRANCH_NAME // Creates and checkouts to
                             // a branch with the following name.
+
 
 ```
 
@@ -73,6 +75,8 @@ After you're done with the branch and are happy with the results, you go to gith
 After you've created it, you can review your chagnes in [reviewNB](https://www.reviewnb.com/) and if you're happy, merge the branch in to main. 
 
 Proper etiquet when naming and pulling is apprecatied, but does take time and is fine to not spend too much time on. 
+
+*Remember* to switch branches on vscode correctly after you're done with everything. It's an easy mistake to make, and while we aren't that formal, it is a bit annoying trying to fix. 
 
 
 
