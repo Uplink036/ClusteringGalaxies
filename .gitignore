@@ -2,6 +2,9 @@
 images_test*
 images_training*
 
+# Remove mac files 
+.DS*
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
