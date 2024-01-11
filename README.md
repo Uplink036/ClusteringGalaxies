@@ -10,6 +10,9 @@ You need to be able to run jupyter notebook and have the pacakges in the [requri
 You also need the galaxy zoo dataset, which can be found [here](https://www.kaggle.com/competitions/galaxy-zoo-the-galaxy-challenge).
 
 ### Unzip image data
+
+Note, we have not included the image data in the repo, as it is too large. You need to download it from the kaggle link above. If you do we recommend you make it into smaller chunks, as it is a lot of data. For our rapport we only used 3578 pictures. 
+
 ## Build 
 Install python pacakges using (in root) 
 
@@ -31,13 +34,13 @@ in the terminal
 
 # How to build (devcontainer)
 ## Prerequistes
-You need a system capable of running dockers and devcontainers. This was done on a ubuntu machine, running the devcontainer exstension, but other ways work as well. 
+You need a system capable of running dockers and devcontainers. This was done on a ubuntu nad mac machine, running the devcontainer exstension, but other ways work as well. 
 
 You also need the galaxy zoo dataset, which can be found [here](https://www.kaggle.com/competitions/galaxy-zoo-the-galaxy-challenge).
 
 ### Unzip image data
-## Build 
 
+Note, we have not included the image data in the repo, as it is too large. You need to download it from the kaggle link above. If you do we recommend you make it into smaller chunks, as it is a lot of data. For our rapport we only used 3578 pictures. 
 
 ## Run 
 Run the container by pressing ctrl-shift-p in vs code and hit the *dev container: reopen in container* to start it up. If it's your first time, it will take a while, but afterwards you have a controlled enviroment that will be the same for others. 
@@ -78,6 +81,6 @@ Proper etiquet when naming and pulling is apprecatied, but does take time and is
 
 *Remember* to switch branches on vscode correctly after you're done with everything. It's an easy mistake to make, and while we aren't that formal, it is a bit annoying trying to fix. 
 
-
-
-# License 
+# Authors 
+- [Oliver Sjödin](https://github.com/Uplink036)
+- [Adam Mützell](https://github.com/AdamMutzell)
