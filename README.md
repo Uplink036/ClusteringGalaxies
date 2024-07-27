@@ -1,5 +1,8 @@
 # ClusteringGalaxies
-Project work from the course DV2599
+The role of machine learning in research about our universe is becoming all the more prominent. With new and more advanced satellite technologies surveying the planets, stars and galaxies around us, the field is quickly becoming filled with image data. To classify and annotate these astronomical bodies requires time and expertise. However, it is a meaningful task, since it helps us get a better understanding of the universe and could therefore help us model its evolution, as well as its past. 
+
+Machine learning models typically learn based on annotated data. These models are good at mimicking and can sometimes even outperform professionals given a good amount of correct data-class pairs. However, these models do not learn to identify new types of classes, and do require field experts to first manually look at unannotated data to then classify. While projects like Galaxy Zoo try to speed up the process by engaging the online community to help classify different galaxy images based on the flowchart in figure \ref{flowchart}, there are still many images left to be identified and classified \cite{galaxyzoo}. However, since tens of thousands of people have contributed to this project and the same images are shown to all of them, the classification given is not absolute. A galaxy image can hence be multiple classes with different probabilities. 
+> Taken from our paper on the subject 
 
 # Introduction 
 
